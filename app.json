@@ -15,6 +15,11 @@
     "CLOUDINARY_API_SECRET": {
       "description": "The 'API Secret' of your Cloudinary account",
       "required": true
+    },
+    "STRAPI_UUID_PREFIX": {
+      "description": "Type of starter",
+      "required": true,
+      "value": "STRAPI-STARTER-BLOG"
     }
   },
   "addons": ["heroku-postgresql:hobby-dev"],
