@@ -41,7 +41,7 @@ const isFirstRun = async () => {
     name: "setup"
   });
   const initHasRun = await pluginStore.get({ key: "initHasRun" });
-  await pluginStore.set({ key: "initHasRun", value: false });
+  await pluginStore.set({ key: "initHasRun", value: true });
   return !initHasRun;
 };
 
