@@ -14,7 +14,7 @@ if (process.env.DATABASE_URL) {
   output += `DATABASE_NAME=${databaseName}${newLine}`;
   output += `DATABASE_USERNAME=${username}${newLine}`;
   output += `DATABASE_PASSWORD=${password}${newLine}`;
-  output += `ADMIN_JWT_SECRET=DUq3xJN2rVVx3k2YC8c35PheWiBxJ8LnRQNnKlUmTMqi/vkBDm3YZzNYrA3GDenjhVMPOOk9VQU0KzVAbftrdQ==`;
+  output += `ADMIN_JWT_SECRET=${require('crypto').randomBytes(64).toString('base64')}`;
 
   fs.writeFile(`./.env`, output, (err) => {
     if (err) {
