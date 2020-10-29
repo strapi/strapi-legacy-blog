@@ -23,7 +23,7 @@
     "strapi": "3.1.0",
     "strapi-admin": "3.1.0",
     "strapi-connector-bookshelf": "3.1.0",
-    "strapi-plugin-content-manager": "3.1.0",
+    "strapi-plugin-content-manager": "3.2.5",
     "strapi-plugin-content-type-builder": "3.1.0",
     "strapi-plugin-email": "3.1.0",
     "strapi-plugin-graphql": "3.1.0",
