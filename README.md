@@ -33,3 +33,7 @@ npm run develop
 ```
 
 The Strapi server is running here => [http://localhost:1337](http://localhost:1337)
+
+## Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
