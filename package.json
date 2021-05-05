@@ -34,7 +34,7 @@
     "unzip-stream": "^0.3.0"
   },
   "author": {
-    "name": "Hextar"
+    "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "STRAPI-STARTER-BLOG"
