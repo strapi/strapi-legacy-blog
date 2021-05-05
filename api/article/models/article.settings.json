@@ -23,7 +23,7 @@
       "plugin": "upload",
       "required": true
     },
-    "published_at": {
+    "published_date": {
       "type": "date",
       "required": true
     },
